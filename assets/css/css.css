@@ -1,0 +1,858 @@
+/***** GLOBAL SETTINGS *****/
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+
+
+#_body_intro {
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 1+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+/***** HEADER *****/
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+#_header_intro {
+  width: 100vw;
+}
+
+
+
+/* Pages */
+#_My_work_page_indication_desktop {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+#_Intro_page_indication_desktop {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+#_Courses_page_indication_desktop {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+#_About_me_page_indication_desktop {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+
+/* Logo and contacts */
+span#_logo {
+  position: absolute;
+  padding: 12px 0px 12px 16px;
+  width: 45%;
+  z-index: 3;
+}
+
+span#_logo a {
+  color: #ffffff;
+}
+
+img#_linkedin_logo {
+  padding: 0 0px 0px 4px ;
+  margin-bottom: 5px;
+  filter: invert(23%) sepia(94%) saturate(2052%) hue-rotate(182deg) brightness(101%) contrast(101%);
+}
+
+/* Top navbar DESKTOP */
+#_top_navbar_wrapper_DESKTOP {
+  padding: 0 0 0 0;
+}
+
+#_top_navbar_padding {
+  padding-right: 17px;
+}
+
+
+._top_nav a {
+  color: #333333;
+}
+
+/* Top navbar MOBILE */
+#_top_navbar_wrapper_MOBILE {
+  height: 48px;
+  position: relative;
+  z-index: 2;
+}
+
+#_menu_button_wrapper {
+  margin-right: 15px;
+}
+
+#_menu_button_svg {
+  width: 30px;
+  filter: invert(37%) sepia(9%) saturate(23%) hue-rotate(317deg) brightness(90%) contrast(81%);
+}
+
+#_offcanvas_content_list {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+#_offcanvas_content_list li {
+  margin-bottom: 0.7em;
+}
+
+#_offcanvas_content_list a:hover {
+  color: #4776cc;
+}
+
+#_Intro_page_indication_inactive_mobile, #_Courses_page_indication_inactive_mobile, #_About_page_indication_inactive_mobile, #_My_work_page_indication_inactive_mobile {
+  color: #333333;
+  text-decoration: none;
+}
+
+#_Intro_page_indication_mobile, #_Courses_page_indication_mobile, #_About_page_indication_mobile, #_My_work_page_indication_mobile {
+  color: #333333;
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+
+
+
+/* color: #5f5f5f; */
+
+
+
+/***** MAIN  *****/
+
+#_content_container {
+  background-color: white;
+}
+
+/* left navbar */
+.col-2 {
+  padding-left: 0px !important;
+}
+
+#_left_navbar_desktop {
+  padding: 25px 16px 16px 16px;
+}
+
+._left_navbar_heading {
+  padding: 5px 0 5px 0;
+}
+
+._left_navbar_wrapper_desktop {
+  top: 48px;
+  height: 100vh;
+  background: #e9f1e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #e9f1e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #e9f1e9); /* W3C, IE 1+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  z-index: 1;
+}
+
+#_back_to_top_svg_desktop {
+  margin: 0 0 0px 5px;
+  filter: invert(41%) sepia(80%) saturate(4073%) hue-rotate(207deg) brightness(101%) contrast(96%);
+}
+
+
+
+/* content */
+/* Projects */
+
+#_sections_wrapper {
+  font-size: 15px;
+}
+
+#_title_wrapper {
+  position: relative;
+}
+
+section p {
+  margin-left: 16px;
+  margin-bottom: 35px;
+}
+
+section #_h1_first {
+  margin: 24px 16px 30px 16px;
+  padding: 0 0 3px;
+}
+
+#_p_as_h1 {
+  margin: 16px 0px 16px 16px;
+  font-weight: 500;
+}
+
+#_p_as_h2 {
+  font-weight: 300;
+  font-size: 13px;
+  color: #4e4e4e;
+  margin-left: 0;
+}
+
+section h1 {
+  margin: 2em 16px 30px 16px;
+}
+
+#_a_for_img_preview {
+  display: block;
+  margin: 10px 15.5% 10px 15.5%;
+  width: 70%;
+}
+
+#_img_preview_project {
+  width: 100%;
+  transition: transform .3s;
+}
+
+#_img_preview_project:hover {
+  transform: scale(1.02);
+}
+
+#_p_into {
+  margin: 16px 0 35px 16px;
+  width: 95%;
+}
+
+section ul {
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+#_button_wrapper {
+  margin-left: 16px;
+}
+
+#_button_wrapper :hover {
+  background-color: #f5f5f5;
+}
+
+/* section 1 and 2 */
+#_img_diagram {
+  margin: 10px 35px 35px 16px;
+  padding: 25px 15px 25px 15px;
+  width: 1150px;
+  transition: transform .3s;
+}
+
+#_img_diagram:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 4; /* Sit on top */
+  padding-top: 12%; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content  {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  padding: 25px 15px 25px 15px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#_tableau_examples_wrapper {
+  width: fit-content;
+}
+
+#_button_tableau_gds {
+  display: block;
+  margin: 30px auto 0px auto;
+  width: 250px;
+  border: solid #e1e1e1 2px;
+  padding-left: 43px;
+  padding-right: 43px;
+  color: #333333;
+  text-decoration: none;
+}
+
+/* section 3 */
+#_button_research {
+  display: block;
+  margin: 30px auto 0px auto;
+  width: 250px;
+  border: solid #e1e1e1 2px;
+  padding-left: 65px;
+  padding-right: 65px;
+  color: #333333;
+  text-decoration: none;
+}
+
+/* section 4 */
+
+#_BAT_h1 {
+  margin: 2em 16px 50px 16px;
+}
+
+#_carousel_bat {
+  float: left;
+  margin: 0px 16px 96px 0;
+}
+
+#_BAT_description {
+  margin: 70px 0 16px 16px;
+  width: 95%;
+}
+
+.active {
+  font-weight: bold;
+}
+
+a._carousel_control {
+  text-decoration: none;
+  color: #333333;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+a._carousel_control:hover {
+  color: #333333;
+}
+
+#_button_BAT_new {
+  border: solid #e1e1e1 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #333333;
+  text-decoration: none;
+}
+
+#_button_BAT_old {
+  border: solid #e1e1e1 2px;
+  padding-left: 30px;
+  padding-right: 37px;
+  color: #333333;
+  text-decoration: none;
+}
+
+
+/* section 5 */
+#_Web_development {
+  clear: left;
+}
+
+/* Courses&certifications */
+
+#_carousel_analytics_certificates, #_carousel_programming, #_carousel_digital_marketing {
+  width: 70%;
+  margin-left: 16px;
+}
+
+#_carousel_indicators {
+  position: static;
+  margin-bottom: 0;
+  margin-top: 16px;
+}
+
+#_img_ielts {
+  transition: transform .3s;
+  width: 50%;
+}
+
+#_img_ielts:hover {
+  /* cursor: pointer; */
+  transform: scale(1.02);
+}
+
+
+/* Intro */
+#_button_to_projects {
+  border: 1px solid #b3c0b3;
+  padding: 13px 45px 13px 45px;
+  color: #333333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#_button_to_projects:hover {
+  background-color: #e8e8e8;
+}
+
+/* About me */
+
+#_h1_about_me {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+
+/***** FOOTER *****/
+footer {
+  margin: 60px 0 17px 0;
+  position: relative;
+  padding-top: 10px;
+}
+
+#_email_footer, #_linkedin_footer {
+  text-decoration: none;
+  padding: 0 10px 0 0px;
+}
+
+#_footer_link_wrapper {
+  position: absolute;
+  right: 0;
+}
+
+
+/***** RESPONSIV STUFF  *****/
+
+/*** STANDART THINGS ***/
+/* Small devices */
+@media (max-width: 576px ) {
+  #_col-2 {
+    width: 50px;
+  }
+
+  #_col-10 {
+    padding: 0 0 0 0;
+  }
+
+  #_left_navbar_wrapper_mobile {
+    top: 48px;
+    height: 100vh;
+    background: #e9f1e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #e9f1e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #e9f1e9); /* W3C, IE 1+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+  }
+
+  #_left_navbar_second_wrapper_mobile {
+    position: relative;
+  }
+
+  #_left_navbar_nav {
+    position: fixed;
+    top: 33%;    
+  }
+
+  #_left_navbar_nav a {
+    height: 25px;
+    margin: 0 7px 25px 7px;
+    padding: 1px 7px 1px 7px;
+  }
+
+  #_back_to_top_mobile {
+    position: fixed;
+    top: 94%;
+    margin: 0 10px 0 9px;
+  }
+
+  #_back_to_top_svg_mobile {
+    width: 18px;
+    filter: invert(41%) sepia(80%) saturate(4073%) hue-rotate(207deg) brightness(101%) contrast(96%);
+  }
+
+  /** projects **/
+
+  #_a_for_img_preview {
+    display: block;
+    margin: 10px auto 10px 16px;
+    width: 100%;
+  }
+  
+  #_img_preview_project {
+    width: 95%;
+  }
+
+  .modal-content {
+    max-width: 100%;
+    margin-top: 5%;
+    padding: 25px 15px 25px 15px;
+  }
+
+  /* business analytics: BAT */
+  #_BAT_description {
+    margin: 0 0 16px 16px;
+    width: 95%;
+  }
+
+  #_BAT_h1 {
+    margin: 2em 16px 35px 16px;
+  }
+
+  /* Courses */
+
+  #_carousel_analytics_certificates, #_carousel_programming, #_carousel_digital_marketing {
+    width: 100%;
+    margin-left: 16px;
+    margin-right: 40px;
+  }
+
+  #_img_ielts {
+    width: 100%;
+    margin: auto auto auto 16px;
+  }
+
+  /* about me */
+  #_container_content {
+    margin-left: 28px;
+    margin-right: 28px;
+    padding-left: 0px;
+  }
+
+  #_my_img {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  
+  #_container_content p {
+    font-size: 18px;
+  }
+  
+  #_2nd_p_about_me{
+    clear: right;
+  }
+
+  #_carousel_large_about_me, #_carousel_small_about_me {
+    width: 100%;
+    margin-bottom: 55px;
+  }
+
+}
+
+/* ONLY FOR INTRO */
+@media (max-width: 768px) {
+  div#_content_intro {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+
+/* Medium devices */
+@media (min-width: 577px) and (max-width: 992px) {
+  #_col-2 {
+    width: 65px;
+  }
+
+  #_col-10 {
+    padding: 0 0 0 0;
+  }
+
+  #_left_navbar_wrapper_mobile {
+    top: 48px;
+    height: 100vh;
+    background: #e9f1e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #e9f1e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #e9f1e9); /* W3C, IE 1+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+  }
+
+  #_left_navbar_second_wrapper_mobile {
+    position: relative;
+  }
+
+  #_left_navbar_nav {
+    position: fixed;
+    top: 33%;    
+  }
+
+  #_left_navbar_nav a {
+    height: 27px;
+    margin: 0 12px 25px 12px;
+    padding: 2px 9px 2px 9px;
+  }
+
+  #_back_to_top_mobile {
+    position: fixed;
+    top: 94%;
+    margin: 0 16px 0 15px;
+  }
+
+  #_back_to_top_svg_mobile {
+    width: 20px;
+    filter: invert(41%) sepia(80%) saturate(4073%) hue-rotate(207deg) brightness(101%) contrast(96%);
+  }
+
+  /** projects **/
+  #_a_for_img_preview {
+    display: block;
+    margin: 10px auto 10px 16px;
+    width: 100%;
+  }
+
+  .modal-content {
+    max-width: 100%;
+    margin-top: 5%;
+    padding: 25px 15px 25px 15px;
+
+  }
+  
+
+  /* for bat */
+  #_BI_analtics #_a_for_img_preview {
+    display: block;
+    margin: 10px auto 10px 16px;
+    width: 80%;
+  }
+
+  /* Courses */
+
+  #_carousel_analytics_certificates, #_carousel_programming, #_carousel_digital_marketing {
+    width: 100%;
+    margin-left: 16px;
+    margin-right: auto;
+  }
+
+  #_img_ielts {
+    width: 80%;
+    margin: auto 16px auto auto;
+  }
+
+
+  /* about me */
+  #_container_content {
+    margin-left: 56px;
+    margin-right: 56px;
+    padding-left: 0px;
+  }
+
+  #_my_img {
+    width: 350px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #_container_content p {
+    font-size: 20px;
+  }
+
+
+  #_carousel_large_about_me, #_carousel_small_about_me {
+    width: 350px;
+    margin-bottom: 55px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+
+/* Large */
+@media (min-width: 992px) and (max-width: 1200px) {
+  #_col-10 {
+    padding-right: 65px;
+  }
+
+  /* Courses */
+  #_carousel_analytics_certificates, #_carousel_programming, #_carousel_digital_marketing {
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 40px;
+  }
+
+  /* about me */
+  #_container_content {
+    margin-left: 18.5%;
+    margin-right: 18.5%;
+    padding-left: 0px;
+  }
+  
+  #_my_img {
+    width: 45%;
+    float: right;
+    margin-left: 35px;
+    margin-bottom: 100px;
+  }
+  
+  #_container_content p {
+    font-size: 20px;
+  }
+
+  #_1st_p_about_me {
+    margin-bottom: 65px;
+  }
+  
+  #_2nd_p_about_me{
+    margin-top: 65px;
+    clear: right;
+  }
+
+  #_carousel_large_about_me, #_carousel_small_about_me {
+    width: 45%;
+    float: left;
+    clear: right;
+    margin-right: 35px;
+    margin-bottom: 55px;
+  }
+
+}
+
+/* Extra large */
+@media (min-width: 1200px) {
+  #_col-10 {
+    padding-right: 65px;
+  }
+
+  /* about me */
+  #_container_content {
+    margin-left: 18.5%;
+    margin-right: 18.5%;
+    padding-left: 0px;
+  }
+  
+  #_my_img {
+    width: 40%;
+    float: right;
+    margin-bottom: 100px;
+    margin-left: 35px;
+  }
+  
+  #_container_content p {
+    font-size: 24px;
+  }
+  
+  #_1st_p_about_me {
+    margin-bottom: 65px;
+  }
+
+  #_2nd_p_about_me {
+    margin-top: 65px;
+    clear: right;
+  }
+
+  #_carousel_large_about_me, #_carousel_small_about_me {
+    width: 40%;
+    float: left;
+    clear: right;
+    margin-right: 35px;
+    margin-bottom: 55px;
+  }
+
+
+}
+
+
+
+
+
+/*** FOR LEFT NAVBAR ***/
+
+@media (min-height: 700px) {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
+    height: 86vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 13px;
+  }
+}
+
+@media (min-height: 650px) and (max-height: 699px) {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
+    height: 85vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 13px;
+  } 
+}
+
+@media (min-height: 600px) and (max-height: 649px) {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
+    height: 84vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 13px;
+  } 
+}
+
+@media (min-height: 550px) and (max-height: 599px) {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
+    height: 82vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 13px;
+  } 
+}
+
+@media (min-height: 500px) and (max-height: 549px) {
+  #_left_navbar_inside_nav_projects, #_left_navbar_inside_nav_courses {
+    height: 81vh;
+    position: relative;
+  }
+  
+  #_back_to_top {
+    position: absolute;
+    bottom: 13px;
+  } 
+}

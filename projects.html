@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrei Evsiukov portfolio</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">
+
+  <!-- My styles -->
+  <link rel="stylesheet" href="assets/css/css.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- START: header -->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+
+        <!--START: Logo (left upper corner)-->
+        <span id="_logo">
+          <span>
+            Andrei Evsiukov
+          </span>
+          <a href="https://www.linkedin.com/in/andreie/" target="_blank">
+            <img id="_linkedin_logo" src="images/svg/linkedin.svg" alt="linkedin contact link" height="19.2px">
+          </a>
+        </span>
+        <!--END: Logo (left upper corner)-->
+
+        <!-- START: TOP navbar DESKTOP -->
+        <div id="_top_navbar_wrapper_DESKTOP" class="d-none d-md-block">
+          <!-- d-none d-md-block : THIS IS FOR HIDING -->
+          <ul class="nav justify-content-end py-1 _top_nav shadow-sm">
+            <li class="nav-item _nav_item_intro">
+              <a class="nav-link" aria-current="page" href="/index.html">Intro</a>
+            </li>
+            <li class="nav-item _nav_item_projects">
+              <a id="_My_work_page_indication_desktop" class="nav-link" aria-current="page" href="/projects.html">My
+                work</a>
+            </li>
+            <li class="nav-item _nav_item_courses">
+              <a class="nav-link" href="/courses&certifications.html">Courses&certifications</a>
+            </li>
+            <li class="nav-item _nav_item_about">
+              <a class="nav-link" href="/about_me.html">About me</a>
+            </li>
+          </ul>
+        </div>
+        <!--END: Top navbar DESKTOP-->
+
+        <!-- START: TOP navbar MOBILE -->
+        <div id="_top_navbar_wrapper_MOBILE" class="shadow-sm d-md-none">
+
+          <div id="_menu_button_wrapper" class="position-absolute top-50 end-0 translate-middle-y rounded shadow-sm">
+            <a id="_menu_button" data-bs-toggle="offcanvas" href="#_offcanvas_menu" aria-controls="_offcanvas_menu">
+              <img id="_menu_button_svg" src="images/svg/menu.svg" alt="menu button">
+            </a>
+          </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="_offcanvas_menu"
+          aria-labelledby="_offcanvas_menu_label">
+
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="_offcanvas_menu_label">Navigation</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div id="_offcanvas_content" class="offcanvas-body">
+            <ul id="_offcanvas_content_list">
+              <li>
+                <a id="_Intro_page_indication_inactive_mobile" aria-current="page" href="/index.html">Intro</a>
+              </li>
+              <li>
+                <a id="_My_work_page_indication_mobile" aria-current="page" href="/projects.html">My work</a>
+              </li>
+              <li>
+                <a id="_Courses_page_indication_inactive_mobile" aria-current="page"
+                  href="/courses&certifications.html">Courses&certifications</a>
+              </li>
+              <li>
+                <a id="_About_page_indication_inactive_mobile" aria-current="page" href="/about_me.html">About me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- END: Top navbar MOBILE -->
+
+      </div>
+      <!--END: row -->
+    </div> <!-- END: container -->
+  </header>
+  <!-- END: header -->
+
+
+
+  <!-- START: everything below header -->
+  <div id="_content_container" class="container-fluid">
+    <!-- START: row - everything below header -->
+    <div id="_row_main" class="row">
+
+      <!-- START: Left navbar and col 2 -->
+      <div id="_col-2" class="col-2">
+
+        <!-- START: Left navbar desktop -->
+        <div class="_left_navbar_wrapper_desktop d-none d-lg-block">
+          <nav id="_left_navbar_desktop" class="navbar flex-column align-items-stretch">
+
+            <div class="_left_navbar_heading fst-italic">Navigation:</div>
+
+            <nav id="_left_navbar_inside_nav_projects" class="nav nav-pills flex-column">
+              <a class="nav-link" href="#_sales_analytics">Business <br>analytics: <br
+                  class="d-none d-md-block d-xl-none">DEEPER</a>
+              <a class="nav-link" href="#_web_analytics">Web analytics</a>
+              <a class="nav-link" href="#_research_project">Research <br class="d-none d-lg-block d-xl-none">project</a>
+              <a class="nav-link" href="#_BI_analtics">Business <br> analytics: BAT</a>
+              <a class="nav-link" href="#_Web_development">Web <br class="d-none d-lg-block d-xl-none">development</a>
+              <a id="_back_to_top" class="nav-link" href="#">Back to top<img id="_back_to_top_svg_desktop"
+                  src="images/svg/up.svg" alt="back to top"></a>
+            </nav>
+
+          </nav>
+        </div>
+        <!-- END: Left navbar desktop -->
+
+        <!-- START: Left navbar mobile -->
+        <div id="_left_navbar_wrapper_mobile" class="position-sticky d-block d-lg-none">
+          <div id="_left_navbar_second_wrapper_mobile">
+            <nav id="_left_navbar_nav" class="nav nav-pills flex-column">
+              <a class="nav-link" href="#_sales_analytics">1</a>
+              <a class="nav-link" href="#_web_analytics">2</a>
+              <a class="nav-link" href="#_research_project">3</a>
+              <a class="nav-link" href="#_BI_analtics">4</a>
+              <a class="nav-link" href="#_Web_development">5</a>
+            </nav>
+            <a id="_back_to_top_mobile" href="#">
+              <img id="_back_to_top_svg_mobile" src="images/svg/up.svg" alt="back to top">
+            </a>
+          </div>
+        </div>
+        <!-- END: Left navbar mobile -->
+
+      </div>
+      <!--END: Left navbar and col 2 -->
+
+
+      <!-- START: all content and col 10 -->
+      <div id="_col-10" class="col-10">
+
+        <!-- START: sections -->
+        <main>
+          <div data-bs-spy="scroll" data-bs-target="#_left_navbar_desktop" data-bs-smooth-scroll="true">
+            <div data-bs-spy="scroll" data-bs-target="#_left_navbar_mobile" data-bs-smooth-scroll="true">
+
+
+              <div id="_sections_wrapper">
+                <!-- START: section 1 SALES -->
+                <section id="_sales_analytics" class="_sales_section">
+                  <h1 id="_h1_first"
+                    class="display-5 fst-italic fw-normal text-left text-uppercase border-bottom border-3 border-light">
+                    business analytics</h1>
+                  <p id="_p_into" class="mx-3">This section demonstrates business performance analytics work which I did
+                    during the last two years at <a href="https://deepersonar.com/us/en_us" rel="brand deeper"
+                      target="_blank">Deeper</a> Russia. At this company I had the opportunity to gain experience in all
+                    levels of data-science process: making decisions about data governance, designing data-structures,
+                    hands-on data mining and cleaning, performing analysis and creating visualisations.<br>
+                    Insights found were presented to direct colleagues in the marketing department and to the commercial
+                    director of the company.</p>
+                  <p id="_p_as_h1" class="mb-0">Scheme of the processes:</p>
+
+
+
+
+                  <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDREI -->
+
+
+
+
+                  <!-- scheme -->
+                  <img id="_img_diagram" src="images/projects/business_analytics_deeper/Diagram.png"
+                    alt="Scheme of processes" class="img-fluid rounded shadow">
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img1">
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                  </div>
+
+                  <p id="_p_as_h1" class="mb-0">Summarizing tasks:</p>
+                  <ul class="mx-3">
+                    <li>Data governance design for sales and marketing departments.</li>
+                    <li>Extracting data from various sources - RetailCRM, OpenCart (CMS), Мой Склад (ERP), Google
+                      Analytics, various digital advertising systems.</li>
+                    <li>Data cleaning and normalization.</li>
+                    <li>Joining different sources by creating relational databases.</li>
+                    <li>Data mining and performing analysis.</li>
+                    <li>Creating visualisations and interactive dashboards.</li>
+                    <li>Communicating results to colleagues.</li>
+                  </ul>
+                  <p id="_p_as_h1" class="mb-0 text-center"> Here are several examples of visualisations in Tableau
+                    Public:</p>
+                  <p id="_p_as_h2" class="mt-1 mb-3 text-center">*data is shown with the approval of ex-employer</p>
+                  <a id="_a_for_img_preview"
+                    href="https://public.tableau.com/app/profile/andrei.evsiukov/viz/Sales_16538348255480/Deeper#1"
+                    rel="link to examples in Tableau" target="_blank">
+                    <img id="_img_preview_project" src="images/projects/business_analytics_deeper/dashboard-2.png"
+                      alt="Screenshoot sales data analysis viz" class="img-fluid shadow rounded">
+                  </a>
+                  <div id="_button_wrapper">
+                    <a id="_button_tableau_gds"
+                      href="https://public.tableau.com/app/profile/andrei.evsiukov/viz/Sales_16538348255480/Deeper#1"
+                      rel="link to examples in Tableau" class="py-2 rounded shadow-sm" target="_blank">Go to
+                      dashboards<img src="images/projects/business_analytics_deeper/tableau_logo.png"
+                        alt="link to examples in tableau" width="30px" class="ms-2 img-fluid"></a>
+                  </div>
+                </section> <!-- END: section 1 -->
+
+                <!-- START: section 2 Web analytics -->
+                <section id="_web_analytics" class="_marketing_section">
+                  <h1
+                    class="display-5 fst-italic fw-normal text-left text-uppercase border-bottom border-3 border-light">
+                    web analytics</h1>
+                  <p id="_p_into" class="mx-3">In addition to analyzing operational data, I was also responsible for web
+                    analytics at Deeper Russia. <br> Several platforms were used for this purpose: <a
+                      href="https://analytics.google.com/analytics/web/" target="_blank">Google Analysis</a>, <a
+                      href="https://metrica.yandex.com/about?" target="_blank">Yandex Metrica</a> and <a
+                      href="https://datastudio.google.com/" target="_blank">Google Data Studio</a> (for visualisations).
+                  </p>
+                  <p id="_p_as_h1" class="mb-0">Activities:</p>
+                  <ul class="mx-3">
+                    <li>Setting up analytics platforms (filters, segments, channel grouping, setting up events in <a
+                        href="https://tagmanager.google.com/" target="_blank">Google Tag Manager</a>)</li>
+                    <li>Daily monitoring of our website performance through Google Analytics and eCommerce CMS - <a
+                        href="https://www.opencart.com/" target="_blank">OpenCart</a>.</li>
+                    <li>Analysis of web traffic from different channels and customer behavior on the site.</li>
+                    <li>A-B testing.</li>
+                    <li>Data viz in Google Data Studio</li>
+                  </ul>
+                  <p>Even more, I was setting up all digital-advertising in the company.<br> A big share of web
+                    analytics work was dedicated to assessment of results of advertising campaigns from 5 advertising
+                    systems.</p>
+                  <p id="_p_as_h1" class="mb-0 ms-0 text-center"> Here are several examples of visualisations in GDS:
+                  </p>
+                  <p id="_p_as_h2" class="mt-1 mb-3 text-center">*data is shown with the approval of ex-employer</p>
+                  <a id="_a_for_img_preview"
+                    href="https://datastudio.google.com/reporting/28386eb0-f238-43b7-a4ed-6f2fc8356c72"
+                    rel="link to examples in GDS" target="_blank">
+                    <img id="_img_preview_project" src="images/projects/web_analytics/dashboard.png"
+                      alt="web analytics dashboard" class="rounded shadow img-fluid">
+                  </a>
+                  <div id="_button_wrapper">
+                    <a id="_button_tableau_gds"
+                      href="https://datastudio.google.com/reporting/28386eb0-f238-43b7-a4ed-6f2fc8356c72"
+                      rel="link to examples in GDS" class="py-2 rounded shadow-sm" target="_blank">Go to dashboards<img
+                        src="images/projects/web_analytics/ic_data_studio.svg" alt="link to examples in tableau"
+                        width="30px" class="ms-2 img-fluid"></a>
+                  </div>
+
+                </section> <!-- END: section 2 -->
+
+                <!-- START: section 3 RESEARCH -->
+                <section id="_research_project" class="_research_section">
+                  <h1
+                    class="display-5 fst-italic fw-normal text-left text-uppercase border-bottom border-3 border-light">
+                    reseach</h1>
+                  <p class="mx-3">This study was done as part of a quantitative data analysis course during my master's
+                    degree at Toulouse 1 Capitole University.<br> The main objective of the study was to search for any
+                    relationships between school student alcohol consumption and the level of education of their
+                    parents.<br>
+                    Analysis was performed in <a href="https://www.rstudio.com/" rel="Rstudio link"
+                      target="_blank">Rstudio</a> (R 4.1.3).<br>
+                    <a href="https://www.kaggle.com/datasets/uciml/student-alcohol-consumption"
+                      rel="dataset for research project" target="_blank">Dataset<a> on kaggle.
+                  </p>
+                  <p id="_p_as_h1" class="mb-0 ms-0 text-center">The research paper in PDF:</p>
+                  <a id="_a_for_img_preview" href="images/projects/research/QDA.pdf" rel="link to pdf with research"
+                    target="_blank">
+                    <img id="_img_preview_project" src="images/projects/research/qda.png" alt="research pdf"
+                      class="rounded ps-2 shadow img-fluid">
+                  </a>
+                  <div id="_button_wrapper">
+                    <a id="_button_research" href="images/projects/research/QDA.pdf" rel="link to pdf with research"
+                      class="py-2 rounded shadow-sm" target="_blank">Open in PDF<img
+                        src="images/projects/research/file-earmark-pdf.svg" alt="link to examples in tableau"
+                        width="25px" class="ms-2 mb-1 img-fluid"></a>
+                  </div>
+                </section> <!-- END: section 3 -->
+
+                <!-- START: section 4 BI -->
+                <section id="_BI_analtics" class="_BI_section">
+                  <h1 id="_BAT_h1"
+                    class="display-5 fst-italic fw-normal text-left text-uppercase border-bottom border-3 border-light">
+                    business analytics: BAT</h1>
+
+                  <div id="_carousel_bat" class="carousel carousel-dark slide d-none d-lg-block" data-bs-ride="false"
+                    data-bs-interval="false" style="width: 48%">
+
+                    <div id="_carousel_slides" class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img id="_carousel_img" src="images/projects/bat/slide1.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide2.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide3.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide4.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide5.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide6.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide7.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide8.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide9.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide10.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide11.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide12.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide13.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide14.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide15.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide16.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide17.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide18.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide19.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide20.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide21.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide22.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide23.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide24.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide25.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide26.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide27.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide28.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide29.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/projects/bat/slide30.png" class="d-block w-100">
+                      </div>
+                    </div>
+
+
+
+                    <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDREI -->
+                    <!-- Buttons -->
+
+
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_bat"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#_carousel_bat"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+
+                  </div><!-- END: carousel -->
+
+                  <p id="_BAT_description">In 2020, I did a 5-month internship at <br>British American Tobacco as a
+                    business analyst intern.<br>
+                    Internship was dedicated to an innovative tobacco heating brand GLO.<br></p>
+                  <p class="mb-3">Main project: monthly updating and improving business performance report related to
+                    brand GLO (activities across the whole Northeastern part of Russia).</p>
+                  <p class="mb-0 mt-5"><em>To protect privacy of my ex-employer and to fulfil NDA most of the data is
+                      hidden.</em></p>
+
+                  <a id="_a_for_img_preview"
+                    href="images/projects/bat/glo_tracker_comparison/glo_tracker_comparison.pdf"
+                    rel="link to pdf with bat presentations" target="_blank" class="d-block d-lg-none">
+                    <img id="_img_preview_project" src="images/projects/bat/slide1.png" alt="research pdf"
+                      class="rounded ps-2 shadow img-fluid d-block d-lg-none">
+                  </a>
+
+
+
+                  <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDREI -->
+                  <!-- Slides -->
+
+
+
+                  <!-- START: carousel controls -->
+                  <div id="_carousel_controls_wrapper" class="d-none d-lg-block">
+                    <p id="_p_as_h1" class="mb-1 ms-0">Slides:</p>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="0" class="active _carousel_control"
+                      aria-current="true" aria-label="Slide 1" style="margin-right:20px;">1</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="1" aria-label="Slide 2"
+                      class="_carousel_control" style="margin-right:18px;">2</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="2" aria-label="Slide 3"
+                      class="_carousel_control" style="margin-right:18px;">3</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="3" aria-label="Slide 4"
+                      class="_carousel_control" style="margin-right:18px;">4</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="4" aria-label="Slide 5"
+                      class="_carousel_control" style="margin-right:18px;">5</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="5" aria-label="Slide 6"
+                      class="_carousel_control" style="margin-right:19px;">6</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="6" aria-label="Slide 7"
+                      class="_carousel_control" style="margin-right:19px;">7</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="7" aria-label="Slide 8"
+                      class="_carousel_control" style="margin-right:18px;">8</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="8" aria-label="Slide 9"
+                      class="_carousel_control" style="margin-right:16px;">9</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="9" aria-label="Slide 10"
+                      class="_carousel_control">10</a> <br>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="10" aria-label="Slide 11"
+                      class="_carousel_control">11</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="11" aria-label="Slide 12"
+                      class="_carousel_control">12</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="12" aria-label="Slide 13"
+                      class="_carousel_control">13</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="13" aria-label="Slide 14"
+                      class="_carousel_control">14</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="14" aria-label="Slide 15"
+                      class="_carousel_control">15</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="15" aria-label="Slide 16"
+                      class="_carousel_control">16</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="16" aria-label="Slide 17"
+                      class="_carousel_control">17</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="17" aria-label="Slide 18"
+                      class="_carousel_control">18</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="18" aria-label="Slide 19"
+                      class="_carousel_control">19</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="19" aria-label="Slide 20"
+                      class="_carousel_control">20</a> <br>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="20" aria-label="Slide 21"
+                      class="_carousel_control">21</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="21" aria-label="Slide 22"
+                      class="_carousel_control">22</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="22" aria-label="Slide 23"
+                      class="_carousel_control">23</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="23" aria-label="Slide 24"
+                      class="_carousel_control">24</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="24" aria-label="Slide 25"
+                      class="_carousel_control">25</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="25" aria-label="Slide 26"
+                      class="_carousel_control">26</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="26" aria-label="Slide 27"
+                      class="_carousel_control">27</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="27" aria-label="Slide 28"
+                      class="_carousel_control">28</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="28" aria-label="Slide 29"
+                      class="_carousel_control">29</a>
+                    <a data-bs-target="#_carousel_bat" data-bs-slide-to="29" aria-label="Slide 30"
+                      class="_carousel_control">30</a>
+                  </div>
+
+                  <div id="_button_wrapper" class="mt-5">
+                    <a id="_button_BAT_new" href="images/projects/bat/glo_tracker_new/glo_tracker_new.pdf"
+                      rel="link to pdf with research" class="py-2 rounded shadow-sm" target="_blank">Open new version in
+                      PDF<img src="images/projects/research/file-earmark-pdf.svg" alt="link to examples in tableau"
+                        width="25px" class="ms-2 mb-1 img-fluid"></a>
+                  </div>
+
+                  <div id="_button_wrapper" class="mt-4">
+                    <a id="_button_BAT_old" href="images/projects/bat/glo_tracker_old/glo_tracker_old.pdf"
+                      rel="link to pdf with research" class="py-2 rounded shadow-sm" target="_blank">Open old version in
+                      PDF<img src="images/projects/research/file-earmark-pdf.svg" alt="link to examples in tableau"
+                        width="25px" class="ms-2 mb-1 img-fluid"></a>
+                  </div>
+
+                </section> <!-- END: section 4 BI -->
+
+                <!-- START: section 5 WEB DEV -->
+                <section id="_Web_development" class="_Web_development_section">
+                  <h1
+                    class="display-5 fst-italic fw-normal text-left text-uppercase border-bottom border-3 border-light">
+                    web development</h1>
+                  <p class="mb-3">Also, a big project was the development of this website. <br>
+                    The whole website is written from scratch using <a href="https://getbootstrap.com/"
+                      rel="bootstrap link">Bootstrap framework</a> .</p>
+
+                  <p>Knowledge of web-development not only give me the ability to create projects like this, they are
+                    also a big plus in working with data.<br>
+                    They allow to effectively use scrapping and parsing techniques to get data out of the web, if it is
+                    needed for analysis (or for enriching initial data).</p>
+                  <p id="_p_as_h1" class="mb-0 ms-0 text-center">My GitHub repository:</p>
+                  <a id="_a_for_img_preview" href="https://github.com/AndreiEvsiukov/AndreiEvsiukov.github.io"
+                    rel="link to GitHub repository of portfolio website" target="_blank">
+                    <img id="_img_preview_project" src="images/projects/web_dev/web_dev_scr.png" alt="code screenshoot"
+                      class="rounded shadow img-fluid">
+                  </a>
+                  <div id="_button_wrapper">
+                    <a id="_button_tableau_gds" href="https://github.com/AndreiEvsiukov/AndreiEvsiukov.github.io"
+                      rel="link to GitHub repository of portfolio website" class="py-2 rounded shadow-sm"
+                      target="_blank">Open on GitHub<img src="images/projects/web_dev/github.svg"
+                        alt="link to examples in tableau" width="25px" class="ms-2 mb-1 img-fluid"></a>
+                  </div>
+                </section> <!-- END: section 5 WEB DEV -->
+
+
+              </div> <!-- END: _sections_wrapper -->
+            </div>
+          </div>
+        </main>
+        <!-- END: sections -->
+
+        <!-- START: footer -->
+        <footer class="border-top border-3 border-light">
+          <span>&copy; 2022 Andrei Evsiukov</span>
+          <span id="_footer_link_wrapper">
+            <a id="_linkedin_footer" href="https://www.linkedin.com/in/andreie/" rel="linkedin Andrei Evsiukov"
+              target="_blank">Linkedin</a>
+            <a id="_email_footer" href="mailto: andreievsiukov@gmail.com" target="_blank">Email</a>
+          </span>
+        </footer>
+        <!-- END: footer -->
+
+      </div> <!-- END: all content and col 10 -->
+
+
+    </div> <!-- END: row - everything below header -->
+  </div> <!-- END: container - everything below header -->
+
+
+  <script src="assets/js/my_script.js"></script> <!-- my own JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script> <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script> <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script> <!-- Bootstrap JS -->
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andrei Evsiukov portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    
+    <!-- My styles -->
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+
+  <body id="_body_intro">
+    
+    <!-- START: header -->
+    <header id="_header_intro">
+      <div class="container-fluid">
+        <div class="row">
+
+          <!--START: Logo (left upper corner)-->
+          <span id="_logo">
+            <span>
+              Andrei Evsiukov
+            </span>
+            <a href="https://www.linkedin.com/in/andreie/" target="_blank">
+              <img id="_linkedin_logo" src="images/svg/linkedin.svg" alt="linkedin contact link" height="19.2px"> 
+            </a>
+          </span>
+          <!--END: Logo (left upper corner)-->
+
+          <!-- START: Top navbar DESKTOP-->
+          <div id="_top_navbar_wrapper_DESKTOP" class="d-none d-md-block"> <!-- d-none d-md-block : THIS IS FOR HIDING -->
+            <ul id="_top_navbar_padding" class="nav justify-content-end py-1 _top_nav shadow">
+              <li class="nav-item _nav_item_intro" id="_top_navbar_contr_padding">
+                <a id="_Intro_page_indication_desktop" class="nav-link" aria-current="page" href="/index.html">Intro</a>
+              </li>
+              <li class="nav-item _nav_item_projects">
+                <a class="nav-link" aria-current="page" href="/projects.html">My work</a>
+              </li>
+              <li class="nav-item _nav_item_courses">
+                <a class="nav-link" href="/courses&certifications.html">Courses&certifications</a>
+              </li>
+              <li class="nav-item _nav_item_about">
+                <a class="nav-link" href="/about_me.html">About me</a>
+              </li>
+            </ul>
+          </div>
+          <!--END: Top navbar DESKTOP -->
+
+          
+          <!-- START: TOP navbar MOBILE -->
+          <div id="_top_navbar_wrapper_MOBILE" class="shadow d-md-none">
+            <div id="_menu_button_wrapper" class="position-absolute top-50 end-0 translate-middle-y rounded shadow-sm">
+              <a id="_menu_button" data-bs-toggle="offcanvas" href="#_offcanvas_menu" aria-controls="_offcanvas_menu">
+                <img id="_menu_button_svg" src="images/svg/menu.svg" alt="menu button">
+              </a>
+            </div>
+          </div>
+
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="_offcanvas_menu" aria-labelledby="_offcanvas_menu_label">
+
+            <div class="offcanvas-header border-bottom">
+              <h5 class="offcanvas-title" id="_offcanvas_menu_label">Navigation</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div id="_offcanvas_content" class="offcanvas-body">
+              <ul id="_offcanvas_content_list"> 
+                <li>
+                  <a id="_Intro_page_indication_mobile" aria-current="page" href="/index.html">Intro</a>
+                </li>
+                <li>
+                  <a id="_My_work_page_indication_inactive_mobile" aria-current="page" href="/projects.html">My work</a>
+                </li>
+                <li>
+                  <a id="_Courses_page_indication_inactive_mobile" aria-current="page" href="/courses&certifications.html">Courses&certifications</a>
+                </li>
+                <li>
+                  <a id="_About_page_indication_inactive_mobile" aria-current="page" href="/about_me.html">About me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- END: Top navbar MOBILE -->
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END: header -->
+
+    <main>
+
+      <div id="_content_intro" class="px-4 py-5 my-5 text-center">
+        <h1 class="display-2 fw-normal mb-4">PORTFOLIO</h1>
+        <div class="col-xl-7 col-lg-8 mx-auto">
+          <p class="fs-3 mb-4"><em>Hi! I am Andrei Evsiukov and this is my portfolio. <br> This website demonstrates my experience in domains of analytics, programming and digital-marketing. There are descriptions, screenshots, files and links to external platforms.</em></p>
+          <p class="fs-4 mb-5"><em>If you have any questions, don't hesitate to contact me :)</em></p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a id="_button_to_projects" href="/projects.html" class="shadow rounded-3">To projects <img src="images/about_me/eye.svg" width="25px" class="ms-1 img-fluid"></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/js/my_script.js"></script> <!-- my own JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

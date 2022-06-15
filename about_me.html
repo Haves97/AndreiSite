@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andrei Evsiukov portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    
+    <!-- My styles -->
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+
+  <body id="_body_intro">
+    
+    <!-- START: header -->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+
+          <!--START: Logo (left upper corner)-->
+          <span id="_logo">
+            <span>
+              Andrei Evsiukov
+            </span>
+            <a href="https://www.linkedin.com/in/andreie/" target="_blank">
+              <img id="_linkedin_logo" src="images/svg/linkedin.svg" alt="linkedin contact link" height="19.2px"> 
+            </a>
+          </span>
+          <!--END: Logo (left upper corner)-->
+
+          <!-- START: Top navbar DESKTOP -->
+          <div id="_top_navbar_wrapper_DESKTOP" class="d-none d-md-block"> <!-- d-none d-md-block : THIS IS FOR HIDING -->
+            <ul class="nav justify-content-end py-1 _top_nav shadow">
+              <li class="nav-item _nav_item_intro">
+                <a class="nav-link" aria-current="page" href="/index.html">Intro</a>
+              </li>
+              <li class="nav-item _nav_item_projects">
+                <a class="nav-link" aria-current="page" href="/projects.html">My work</a>
+              </li>
+              <li class="nav-item _nav_item_courses">
+                <a class="nav-link" href="/courses&certifications.html">Courses&certifications</a>
+              </li>
+              <li class="nav-item _nav_item_about">
+                <a id="_About_me_page_indication_desktop" class="nav-link" href="#">About me</a>
+              </li>
+            </ul>
+          </div>
+          <!--END: Top navbar DESKTOP -->
+
+          <!-- START: TOP navbar MOBILE -->
+          <div id="_top_navbar_wrapper_MOBILE" class="shadow d-md-none">
+            <div id="_menu_button_wrapper" class="position-absolute top-50 end-0 translate-middle-y rounded shadow-sm">
+              <a id="_menu_button" data-bs-toggle="offcanvas" href="#_offcanvas_menu" aria-controls="_offcanvas_menu">
+                <img id="_menu_button_svg" src="images/svg/menu.svg" alt="menu button">
+              </a>
+            </div>
+          </div>
+
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="_offcanvas_menu" aria-labelledby="_offcanvas_menu_label">
+
+            <div class="offcanvas-header border-bottom">
+              <h5 class="offcanvas-title" id="_offcanvas_menu_label">Navigation</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div id="_offcanvas_content" class="offcanvas-body">
+              <ul id="_offcanvas_content_list"> 
+                <li>
+                  <a id="_Intro_page_indication_inactive_mobile" aria-current="page" href="/index.html">Intro</a>
+                </li>
+                <li>
+                  <a id="_My_work_page_indication_inactive_mobile" aria-current="page" href="/projects.html">My work</a>
+                </li>
+                <li>
+                  <a id="_Courses_page_indication_inactive_mobile" aria-current="page" href="/courses&certifications.html">Courses&certifications</a>
+                </li>
+                <li>
+                  <a id="_About_page_indication_mobile" aria-current="page" href="/about_me.html">About me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- END: Top navbar MOBILE -->
+
+        </div>
+      </div>
+    </header>
+    <!-- END: header -->
+
+    <main id="_about_me_main">
+
+      <!-- START: container content -->
+      <div id="_container_content">
+
+        <h1 id="_h1_about_me" class="display-5 fst-italic fw-normal text-left text-uppercase my-4">About me</h1>
+        <!-- img more than 990px -->
+        <img id="_my_img" src="images/about_me/my_photo_crop1.jpg" alt="my photo" class="rounded-1 shadow img-fluid d-none d-lg-block">
+        <p id="_1st_p_about_me"><em>Hi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, repellat quibusdam. Labore voluptate aliquam esse vel ex accusantium sunt est reiciendis quod laudantium asperiores obcaecati nesciunt, sed quas quis quasi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam tempora nemo quidem explicabo eveniet.</em></p>
+          
+        <!-- START: carousel more than 990px  -->
+        <div id="_carousel_large_about_me" class="carousel carousel-dark slide d-none d-lg-block" data-bs-ride="false" data-bs-interval="false">
+          <div class="carousel-inner rounded-1 shadow">
+            <div class="carousel-item active">
+              <img src="images/about_me/slideshow/1.png" class="d-block w-100" alt="lifestyle img 1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/2.png" class="d-block w-100" alt="lifestyle img 2">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/3.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/4.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/5.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/6.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/7.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/8.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/9.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/10.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+          </div>
+
+          <div id="_carousel_indicators" class="carousel-indicators">
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#_carousel_large_about_me" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> <!-- END: carousel more than 990px -->
+
+        <!-- img less than 990px -->
+        <img id="_my_img" src="images/about_me/my_photo_crop1.jpg" alt="my photo" class="rounded-1 shadow img-fluid d-block d-lg-none">
+
+        <p id="_2nd_p_about_me"><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, repellat quibusdam. Labore voluptate aliquam esse vel ex accusantium sunt est reiciendis quod laudantium asperiores obcaecati nesciunt, sed quas quis quasi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam tempora nemo quidem explicabo eveniet laborum sequi! Exercitationem delectus.</em></p>
+
+        <!-- START: carousel less than 990px -->
+        <div id="_carousel_small_about_me" class="carousel carousel-dark slide d-block d-lg-none" data-bs-ride="false" data-bs-interval="false">
+          <div class="carousel-inner rounded-1 shadow">
+            <div class="carousel-item active">
+              <img src="images/about_me/slideshow/1.png" class="d-block w-100" alt="lifestyle img 1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/2.png" class="d-block w-100" alt="lifestyle img 2">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/3.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/4.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/5.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/6.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/7.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/8.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/9.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/about_me/slideshow/10.png" class="d-block w-100" alt="lifestyle img 3">
+            </div>
+          </div>
+
+          <div id="_carousel_indicators" class="carousel-indicators">
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#_carousel_small_about_me" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> <!-- END: carousel less than 990px -->
+
+      </div> <!-- END: container content -->
+    </main>
+
+    <script src="assets/js/my_script.js"></script> <!-- my own JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrei Evsiukov portfolio</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">
+
+  <!-- My styles -->
+  <link rel="stylesheet" href="assets/css/css.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- START: header -->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+
+        <!--START: Logo (left upper corner)-->
+        <span id="_logo">
+          <span>
+            Andrei Evsiukov
+          </span>
+          <a href="https://www.linkedin.com/in/andreie/ " target="_blank">
+            <img id="_linkedin_logo" src="images/svg/linkedin.svg" alt="linkedin contact link" height="19.2px">
+          </a>
+        </span>
+        <!--END: Logo (left upper corner)-->
+
+        <!-- START: Top navbar DESKTOP -->
+        <div id="_top_navbar_wrapper_DESKTOP" class="d-none d-md-block">
+          <!-- d-none d-md-block : THIS IS FOR HIDING -->
+          <ul class="nav justify-content-end py-1 _top_nav shadow-sm">
+            <li class="nav-item _nav_item_intro">
+              <a class="nav-link" aria-current="page" href="/index.html">Intro</a>
+            </li>
+            <li class="nav-item _nav_item_projects">
+              <a class="nav-link" aria-current="page" href="/projects.html">My work</a>
+            </li>
+            <li class="nav-item _nav_item_courses">
+              <a id="_Courses_page_indication_desktop" class="nav-link"
+                href="/courses&certifications.html">Courses&certifications</a>
+            </li>
+            <li class="nav-item _nav_item_about">
+              <a class="nav-link" href="/about_me.html">About me</a>
+            </li>
+          </ul>
+        </div>
+        <!--END: Top navbar DESKTOP -->
+
+        <!-- START: TOP navbar MOBILE -->
+        <div id="_top_navbar_wrapper_MOBILE" class="shadow-sm d-md-none">
+          <div id="_menu_button_wrapper" class="position-absolute top-50 end-0 translate-middle-y rounded shadow-sm">
+            <a id="_menu_button" data-bs-toggle="offcanvas" href="#_offcanvas_menu" aria-controls="_offcanvas_menu">
+              <img id="_menu_button_svg" src="images/svg/menu.svg" alt="menu button">
+            </a>
+          </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="_offcanvas_menu"
+          aria-labelledby="_offcanvas_menu_label">
+
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="_offcanvas_menu_label">Navigation</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div id="_offcanvas_content" class="offcanvas-body">
+            <ul id="_offcanvas_content_list">
+              <li>
+                <a id="_Intro_page_indication_inactive_mobile" aria-current="page" href="/index.html">Intro</a>
+              </li>
+              <li>
+                <a id="_My_work_page_indication_inactive_mobile" aria-current="page" href="/projects.html">My work</a>
+              </li>
+              <li>
+                <a id="_Courses_page_indication_mobile" aria-current="page"
+                  href="/courses&certifications.html">Courses&certifications</a>
+              </li>
+              <li>
+                <a id="_About_page_indication_inactive_mobile" aria-current="page" href="/about_me.html">About me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- END: Top navbar MOBILE -->
+
+      </div>
+    </div>
+  </header>
+  <!-- END: header -->
+
+
+
+  <!-- START: everything below header -->
+  <div id="_content_container" class="container-fluid">
+    <!-- START: row - everything below header -->
+    <div id="_row_main" class="row">
+
+      <!-- START: Left navbar and col 2 -->
+      <div id="_col-2" class="col-2">
+
+        <!-- START: Left navbar desktop -->
+        <div class="_left_navbar_wrapper_desktop d-none d-lg-block">
+          <nav id="_left_navbar_desktop" class="navbar flex-column align-items-stretch">
+
+            <div class="_left_navbar_heading fst-italic">Navigation:</div>
+
+            <nav id="_left_navbar_inside_nav_courses" class="nav nav-pills flex-column">
+              <a class="nav-link" href="#_analytics_viz_section">Analytics and <br>visualization</a>
+              <a class="nav-link" href="#_programming_section">Programming</a>
+              <a class="nav-link" href="#_advertising_section">Digital <br
+                  class="d-none d-lg-block d-xl-none">marketing</a>
+              <a class="nav-link" href="#_IELTS_section">Languages</a>
+              <a id="_back_to_top" class="nav-link" href="#">Back to top<img id="_back_to_top_svg_desktop"
+                  src="images/svg/up.svg" alt="back to top"></a>
+            </nav>
+
+          </nav>
+        </div>
+        <!-- END: Left navbar desktop -->
+
+        <!-- START: Left navbar mobile -->
+        <div id="_left_navbar_wrapper_mobile" class="position-sticky d-block d-lg-none">
+          <div id="_left_navbar_second_wrapper_mobile">
+            <nav id="_left_navbar_nav" class="nav nav-pills flex-column">
+              <a class="nav-link" href="#_analytics_viz_section">1</a>
+              <a class="nav-link" href="#_programming_section">2</a>
+              <a class="nav-link" href="#_advertising_section">3</a>
+              <a class="nav-link" href="#_IELTS_section">4</a>
+            </nav>
+            <a id="_back_to_top_mobile" href="#">
+              <img id="_back_to_top_svg_mobile" src="images/svg/up.svg" alt="back to top">
+            </a>
+          </div>
+        </div>
+        <!-- END: Left navbar mobile -->
+
+      </div>
+      <!--END: Left navbar and col 2 -->
+
+
+      <!-- START: all content and col 10 -->
+      <div id="_col-10" class="col-10">
+
+        <!-- START: sections -->
+        <main>
+          <div data-bs-spy="scroll" data-bs-target="#_left_navbar_desktop" data-bs-smooth-scroll="true">
+            <div data-bs-spy="scroll" data-bs-target="#_left_navbar_mobile" data-bs-smooth-scroll="true">
+
+
+              <div id="_sections_wrapper">
+
+                <!-- START: section 1 analytics and viz -->
+                <section id="_analytics_viz_section" class="_analytics_viz_section">
+                  <h1 id="_h1_first"
+                    class="display-5 fst-italic fw-normal text-left text-uppercase border-bottom border-3 border-light">
+                    analytics / visualisation</h1>
+                  <p id="_p_into" class="mx-3">This section is specifically dedicated to analytics and data viz
+                    <em>(without programming as it is covered it in the next section).</em><br>
+                    During past 3 years analytics was the biggest part of my work.<br>
+                    I used mostly Tableau and Google Data Studio (also familiar with Power BI).<br>
+                    Other platforms which were regularly in use: Google Analytics (GA4, GTM) and Yandex Metrica.
+                  </p>
+
+                  <!-- START: carousel -->
+
+                  <div id="_carousel_analytics_certificates" class="carousel carousel-dark slide" data-bs-ride="false"
+                    data-bs-interval="false">
+
+                    <div class="carousel-inner shadow rounded-1">
+                      <div class="carousel-item active">
+                        <img src="images/courses&certifications/analytics_and_visualization/Tableau.jpg"
+                          class="d-block w-100" alt="course completion certificate tableau visualisation">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/analytics_and_visualization/GDS.png"
+                          class="d-block w-100" alt="course completion certificate google data studio">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/analytics_and_visualization/GA.png"
+                          class="d-block w-100" alt="certificate google analytics">
+                      </div>
+                    </div>
+
+                    <div id="_carousel_indicators" class="carousel-indicators">
+                      <button type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#_carousel_analytics_certificates" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button"
+                      data-bs-target="#_carousel_analytics_certificates" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                      data-bs-target="#_carousel_analytics_certificates" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div> <!-- END: carousel -->
+                </section> <!-- END: section 1 analytics and viz -->
+
+                <!-- START: section 2 programming -->
+                <section id="_programming_section" class="_programming_section">
+                  <h1
+                    class="display-5 fst-italic fw-normal text-left text-uppercase border-bottom border-3 border-light">
+                    programming skills</h1>
+                  <p id="_p_into" class="mx-3 mb-3">I absolutely convinced that knowledge programming is one of the
+                    biggest superpowers in the 21st century.<br>
+                    At the moment, this is the area in which I devote the most time to development.</p>
+
+                  <p id="_p_as_h1" class="mb-2">Hard skills in this area:</p>
+                  <ul>
+                    <li>SQL</li>
+                    <li>R</li>
+                    <li>Python (basics)</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (basics)</li>
+                    <li>GIT</li>
+                  </ul>
+
+                  <p id="_p_intro" class="mb-3"><em>Unfortunately, I can't provide a certificate of completion for the
+                      web-development course on Coursera, as I took it in a free format.<br>
+                      However, it is completely due to the course I was able to create this portfolio.</em></p>
+
+                  <!-- START: carousel -->
+                  <div id="_carousel_programming" class="carousel carousel-dark slide rounded" data-bs-ride="false"
+                    data-bs-interval="false">
+                    <div class="carousel-inner shadow rounded-1">
+                      <div class="carousel-item active">
+                        <img src="images/courses&certifications/programming/Learning_Python.png" class="d-block w-100"
+                          alt="course completion sql for data science">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/programming/SQL_for_data_science.jpg"
+                          class="d-block w-100" alt="course completion sql for data science">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/programming/SQL_code_challenges.jpg"
+                          class="d-block w-100" alt="course completion sql code challenges">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/programming/SQL_fundamentals.jpg" class="d-block w-100"
+                          alt="course completion sql fundamentals">
+                      </div>
+                    </div>
+
+                    <div id="_carousel_indicators" class="carousel-indicators">
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#_carousel_programming" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_programming"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#_carousel_programming"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div> <!-- END: carousel -->
+
+                </section> <!-- END: section 2 programming -->
+
+                <!-- START: section 3 digital ads -->
+                <section id="_advertising_section" class="_advertising_section">
+                  <h1
+                    class="display-5 fst-italic fw-normal text-left text-uppercase border-bottom border-3 border-light">
+                    digital marketing</h1>
+                  <p id="_p_intro" class="mx-3">I finished a bachelor's degree in commercial marketing. <br>
+                    Moreover, the last two years I was combining analytics responsibilities with work in digital
+                    marketing. <br>
+                    I can confidently say that I have a deep understanding of business processes and practices in this
+                    field.</p>
+                  <!-- START: carousel -->
+                  <div id="_carousel_digital_marketing" class="carousel carousel-dark slide rounded"
+                    data-bs-ride="false" data-bs-interval="false">
+                    <div class="carousel-inner rounded-1 shadow">
+                      <div class="carousel-item active">
+                        <img src="images/courses&certifications/digital_advertising/GAds_display.png"
+                          class="d-block w-100" alt="certificate google ads display">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/digital_advertising/GAds_search.png"
+                          class="d-block w-100" alt="certificate google ads search">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/digital_advertising/GAds_shopping.png"
+                          class="d-block w-100" alt="certificate google ads shopping">
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="images/courses&certifications/digital_advertising/Microsoft Advertising Certified Professional-1.jpg"
+                          class="d-block w-100" alt="certificate microsoft ads">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/courses&certifications/digital_advertising/GAds_video.png"
+                          class="d-block w-100" alt="certificate google ads video">
+                      </div>
+                    </div>
+
+                    <div id="_carousel_indicators" class="carousel-indicators">
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#_carousel_digital_marketing" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#_carousel_digital_marketing"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#_carousel_digital_marketing"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div> <!-- END: carousel -->
+
+                </section> <!-- END: section 3 digital ads -->
+
+                <!-- START: section 4 Languages -->
+                <section id="_IELTS_section" class="_IELTS_section">
+                  <h1
+                    class="display-5 fst-italic fw-normal text-left text-uppercase border-bottom border-3 border-light">
+                    IELTS certificate</h1>
+                  <p id="_p_as_h1" class="mx-3 mb-2">Languages:</p>
+                  <ul>
+                    <li>Russian: native.</li>
+                    <li>English: C1.</li>
+                    <li>French: A2.</li>
+                  </ul>
+
+
+
+                  <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDREI -->
+
+
+
+                  <img id="_img_diagram" src="images/cert.jpg" alt="Scheme of processes"
+                    class="img-fluid rounded shadow">
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img1">
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                  </div>
+
+                </section> <!-- END: section 4 Languages -->
+
+              </div> <!-- END: _sections_wrapper -->
+            </div>
+          </div>
+        </main>
+        <!-- END: sections -->
+
+        <!-- START: footer -->
+        <footer class="border-top border-3 border-light">
+          <span>&copy; 2022 Andrei Evsiukov</span>
+          <span id="_footer_link_wrapper">
+            <a id="_linkedin_footer" href="https://www.linkedin.com/in/andreie/" rel="linkedin Andrei Evsiukov"
+              target="_blank">Linkedin</a>
+            <a id="_email_footer" href="mailto: andreievsiukov@gmail.com" target="_blank">Email</a>
+          </span>
+        </footer>
+        <!-- END: footer -->
+
+      </div> <!-- END: all content and col 10 -->
+
+
+    </div> <!-- END: row - everything below header -->
+  </div> <!-- END: container - everything below header -->
+
+  <script src="assets/js/my_script.js"></script> <!-- my own JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
